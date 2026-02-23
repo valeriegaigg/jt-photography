@@ -5,7 +5,7 @@
   "homepage": "https://valeriegaigg.github.io/jt-photography",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run dev",
+    "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "next start",
