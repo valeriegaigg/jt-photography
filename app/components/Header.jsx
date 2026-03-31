@@ -5,19 +5,31 @@ import Hamburger from '../nav/Hamburger';
 
 function Header() {
   return (
-    <header className="p-4 flex flex-col w-full h-30 items-center content-center md:bg-pink-300">
-      <Image
-          className='w-xs'
+    <header>
+      <div className='flex flex-col items-center p-2 mt-4 sm:hidden'>
+      <img
           src="/jtlogo1.png"
           alt="Jennifer Tabbert Photography logo"
-          width={400}
-          height={65.6}
-          priority /> 
+          style={{
+              width: "85%",
+              height: "auto",
+            }}
+          /> 
 
-          <Hamburger />
-
-      <nav className="hidden flex gap-8 justify-center items-center font-italiana text-xl">
-        <Link href="/">
+        <Hamburger />
+      </div>
+      
+      <div className="hidden md:flex flex-col items-center mt-5 relative z-10">
+        <img
+          src="/jtlogo1.png"
+          alt="Jennifer Tabbert Photography logo"
+          style={{
+              width: "35%",
+              height: "auto",
+            }}
+          /> 
+        <nav className='flex gap-8 mt-6 font-italiana text-xl'>
+            <Link href="/">
           Home
         </Link>
         <Link href="/about">
@@ -26,23 +38,19 @@ function Header() {
         <Link href="/">
           Portfolio
         </Link>
-        <Image
-          src="/jtlogo1.png"
-          alt="Jennifer Tabbert Photography logo"
-          width={400}
-          height={65.6}
-          priority />
+        
         <Link href="/">
           Investment
         </Link>
         <Link href="/">
           Contact 
         </Link>
-        <Link href="/">
-          Login 
-        </Link>
-        
-      </nav>
+        </nav>
+            
+      
+      </div>
+      
+      
     </header>
   );
 }

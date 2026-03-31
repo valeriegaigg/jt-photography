@@ -1,9 +1,9 @@
-// app/about/page.tsx
-export default function AboutPage() {
+// app/portfolio/page.tsx
+export default function PortfolioPage() {
   return (
     <div className="flex justify-center">
-      <h1>About Page</h1>
-      <p className="h-500">
+      <h1>Portfolio Page</h1>
+      <p>
         Welcome to our website! Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Obcaecati enim error eaque beatae ullam iste placeat
         quis nam rem dolores, similique reprehenderit, quae voluptate saepe.

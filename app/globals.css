@@ -29,11 +29,10 @@ body {
   color: var(--foreground); 
   font-weight: 100;
   line-height: 1.5em;
+  
 }
 
-main div{
-  padding-bottom: 20px;
-}
+
 
 h2{
   font-family: var(--font-italiana);
