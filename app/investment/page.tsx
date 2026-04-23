@@ -217,7 +217,10 @@ export default function InvestmentPage() {
         </div>
       </div>
 
-      <div className="flex flex-col mt-6 items-center w-full bg-white">
+      <div
+        id="babies"
+        className="flex flex-col mt-6 items-center w-full bg-white"
+      >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
@@ -253,7 +256,10 @@ export default function InvestmentPage() {
         </div>
       </div>
 
-      <div className="flex flex-col mt-6 items-center w-full bg-white">
+      <div
+        id="weddings"
+        className="flex flex-col mt-6 items-center w-full bg-white"
+      >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
