@@ -6,7 +6,7 @@ import Hamburger from '../nav/Hamburger';
 function Header() {
   return (
     <header>
-      <div className='flex flex-col items-center p-2 mt-4 sm:hidden'>
+      <div className='flex flex-col items-center p-2 mt-4 md:hidden'>
       <img
           src="/jtlogo1.png"
           alt="Jennifer Tabbert Photography logo"
@@ -35,14 +35,14 @@ function Header() {
         <Link href="/about">
           About
         </Link>
-        <Link href="/">
+        <Link href="/portfolio">
           Portfolio
         </Link>
         
-        <Link href="/">
+        <Link href="/investment">
           Investment
         </Link>
-        <Link href="/">
+        <Link href="/contact">
           Contact 
         </Link>
         </nav>

@@ -1,4 +1,4 @@
-// app/portfolio/page.tsx
+// app/contact/page.tsx
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PortfolioPage() {
+export default function ContactPage() {
   return (
     <div className="flex justify-center p-5">
       <h1>Content coming soon...</h1>
