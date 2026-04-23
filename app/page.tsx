@@ -21,11 +21,11 @@ export default function Home() {
         />
       </div>
       <div className="content text-center p-4 mt-4 md:-mt-35">
-        <h1 className="text-sm m-1 ">Appleton, WI Photographer</h1>
+        <h1 className="text-sm m-2">Appleton, WI Photographer</h1>
         <h2 className="text-3xl font-italiana">
           Making memories to last a lifetime...
         </h2>
-        <p className="p-4 leading-7 md:w-xl">
+        <p className="p-4 mt-2 mb-2 leading-7 md:w-xl">
           {" "}
           Your photography session is all about you, your family, and your
           memories. Be your true self. Show your fun, quirky personality. Do the
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
-            src="/location.jpg"
+            src="/home/main-1.jpg"
             alt="Family walking in field"
             width={400}
             height={20}
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
-            src="/seniorpost.jpg"
+            src="/home/main-2.jpg"
             alt="Football player in field"
             width={400}
             height={20}
@@ -68,7 +68,7 @@ export default function Home() {
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
-            src="/babiespost.jpg"
+            src="/home/main-3.jpg"
             alt="Newborn baby"
             width={400}
             height={20}
@@ -76,7 +76,9 @@ export default function Home() {
         </div>
         <div className="ml-5 mt-4 p-2 md:mt-65 md:ml-25">
           <h2 className="text-2xl">Babies</h2>
-          <span className="text-sm italic">View Gallery</span>
+          <Link className="text-sm italic " href="/portfolio">
+            View Gallery
+          </Link>
         </div>
       </div>
       <Link href="/portfolio" className="p-4 md:mt-5 underline">
@@ -87,7 +89,7 @@ export default function Home() {
         <div className="w-4/5 relative z-2 md:w-300">
           <Image
             className="mt-6"
-            src="/aboutJen.jpg"
+            src="/home/home-about.jpg"
             alt="Portrait"
             width={400}
             height={20}
@@ -121,10 +123,10 @@ export default function Home() {
 
       <div className="-mt-15 w-full text-center md:mt-0">
         <Image
-          className="translate-x-57 translate-y-50 md:translate-y-30 md:translate-x-0 md:w-70 md:float-right"
-          src="/photo8.jpg"
+          className="translate-x-57 translate-y-70 md:translate-y-30 md:translate-x-0 md:w-80 md:float-right"
+          src="/home/b-side.jpg"
           alt=""
-          width={175}
+          width={174}
           height={20}
         />
         <div className="-translate-y-45  md:translate-y-55 md:ml-73">
@@ -138,17 +140,17 @@ export default function Home() {
 
         <div>
           <Image
-            className="-translate-y-25 md:-translate-y-15 md:w-80"
-            src="/download (15).jpg"
+            className="-translate-y-25 md:-translate-y-15 md:w-90"
+            src="/home/b-left.jpg"
             alt=""
-            width={175}
+            width={200}
             height={20}
           />
           <Image
-            className="translate-x-35 -translate-y-35 md:translate-x-60 md:-translate-y-35 md:w-55"
-            src="/photo12.jpg"
+            className="w-3/4 translate-x-1/5 -translate-y-30 md:translate-x-78 md:-translate-y-55 md:w-1/3"
+            src="/home/b-bottom.jpg"
             alt=""
-            width={160}
+            width={500}
             height={20}
           />
         </div>
