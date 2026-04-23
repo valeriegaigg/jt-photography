@@ -7,14 +7,14 @@ export default function Home() {
       <div className="w-full">
         <Image
           className="w-full md:hidden"
-          src="/jt-homebanner-large-mobile.jpg"
+          src="/home/jt-homebanner-large-mobile.jpg"
           alt="Family walking in snow"
           width={500}
           height={20}
         />
         <Image
           className="hidden md:block -translate-y-40 w-full"
-          src="/jt-homebanner-large.jpg"
+          src="/home/jt-homebanner-large.jpg"
           alt="Family walking in snow"
           width={1000}
           height={20}
