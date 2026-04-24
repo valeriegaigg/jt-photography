@@ -27,8 +27,8 @@ export default function InvestmentPage() {
         <div className="leading-8 md:p-10 m-4 p-4">
           <h2 className="text-3xl text-center mb-4 md:text-left">Investment</h2>
           <p>
-            You deserve a unique, tailored approach to your family photo session
-            or senior photo session. Kids grow and change so fast- each age and
+            You deserve a unique, tailored approach to your photo session, no
+            matter the ocassion. Kids grow and change so fast- each age and
             stage is so unique.
           </p>
           <p className="mt-4">
@@ -40,6 +40,7 @@ export default function InvestmentPage() {
             <Link href="#families">Families &darr;</Link>
             <Link href="#babies">Babies &darr;</Link>
             <Link href="#weddings">Weddings &darr;</Link>
+            <Link href="#other">Other &darr;</Link>
           </div>
         </div>
       </div>
@@ -141,7 +142,7 @@ export default function InvestmentPage() {
 
       <div
         id="seniors"
-        className="flex flex-col mt-6 items-center w-full bg-white"
+        className="flex flex-col mt-8 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -151,36 +152,35 @@ export default function InvestmentPage() {
             width={420}
             height={20}
           />
-          <div className="w-auto ml-4 p-8 col-span-3 leading-8">
+          <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Seniors</h2>
             <h3 className="text-xl mb-2">Package 1:</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
             </p>
             <h3 className="text-xl mt-4 mb-2">Package 2:</h3>
-            <p>
+            <p className="mb-4">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
             </p>
-            <h3 className="text-md font-normal mt-4 mb-2 underline">
+            <Link className="text-md font-normal mt-4 underline" href="/">
               Download Guide
-            </h3>
+            </Link>
           </div>
+          <Image
+            className="mr-auto ml-auto pb-8 md:w-full"
+            src="/invest/7.jpg"
+            alt=""
+            width={420}
+            height={20}
+          />
         </div>
       </div>
 
       <div
         id="families"
-        className="flex flex-col mt-6 items-center w-full bg-white"
+        className="flex flex-col mt-8 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -190,36 +190,32 @@ export default function InvestmentPage() {
             width={420}
             height={20}
           />
-          <div className="w-auto ml-4 p-8 col-span-3 leading-8">
+          <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Families</h2>
-            <h3 className="text-xl mb-2">Package 1:</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
+              I love to capture outdoor family sessions, whether it's a sunny
+              afternoon or an evening sunset. I travel to locations in the Fox
+              Valley and would love to recommend my favorite spots for your
+              shoot. Family sessions are approximately 1 hour long. Outfit
+              changes are not a problem!
             </p>
-            <h3 className="text-xl mt-4 mb-2">Package 2:</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
-            </p>
-            <h3 className="text-md font-normal mt-4 mb-2 underline">
-              Download Guide
-            </h3>
+            <li className="mt-2 ml-8">Package price: $450</li>
+            <li className="ml-8">Location of your choice</li>
+            <li className="ml-8">no. of images, online gallery</li>
           </div>
+          <Image
+            className="mr-auto ml-auto pb-8 md:w-full"
+            src="/invest/5.jpg"
+            alt=""
+            width={420}
+            height={20}
+          />
         </div>
       </div>
 
       <div
         id="babies"
-        className="flex flex-col mt-6 items-center w-full bg-white"
+        className="flex flex-col mt-8 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -229,36 +225,35 @@ export default function InvestmentPage() {
             width={420}
             height={20}
           />
-          <div className="w-auto ml-4 p-8 col-span-3 leading-8">
+          <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Babies</h2>
-            <h3 className="text-xl mb-2">Package 1:</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
+              There is nothing quite like a sleepy newborn session. These can be
+              done in the natural light of your home, or in my studio.
+              Generally, newborn sessions are best within the first 10 days
+              after birth. Siblings are welcome! I would love to include your
+              big and little ones.
             </p>
-            <h3 className="text-xl mt-4 mb-2">Package 2:</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
+            <li className="ml-8 mt-2">Package price: $400</li>
+            <li className="ml-8">60 images in your online gallery</li>
+            <p className="mt-4">
+              I also offer maternity sessions in home, studio, or outdoors.
+              Reach out with your details, I would love to work with you!
             </p>
-            <h3 className="text-md font-normal mt-4 mb-2 underline">
-              Download Guide
-            </h3>
           </div>
+          <Image
+            className="mr-auto ml-auto pb-8 md:w-full"
+            src="/invest/maternity.jpg"
+            alt=""
+            width={420}
+            height={20}
+          />
         </div>
       </div>
 
       <div
         id="weddings"
-        className="flex flex-col mt-6 items-center w-full bg-white"
+        className="flex flex-col mt-8 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -270,31 +265,70 @@ export default function InvestmentPage() {
           />
           <div className="w-auto ml-4 p-8 col-span-3 leading-8">
             <h2 className="text-3xl mb-4">Weddings</h2>
-            <h3 className="text-xl mb-2">Package 1:</h3>
+            <h3 className="text-xl mb-2">The Classic Wedding:</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
+              Includes getting ready candids, couple and family portraits,
+              ceremony coverage, and one additional location for wedding party
+              portraits.
             </p>
-            <h3 className="text-xl mt-4 mb-2">Package 2:</h3>
+            <li className="ml-8">Hours of coverage</li>
+            <li className="mb-4 ml-8">Number of photos</li>
+            <h3 className="text-xl mt-4 mb-2">The Epic Wedding:</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-              expedita est harum assumenda veritatis dolorem explicabo
-              architecto nihil delectus fugit necessitatibus facere obcaecati
-              consectetur, beatae ex? Officiis earum maxime eos ut quasi error,
-              dolor pariatur non beatae provident, nemo ex repellendus? Dolorum.
+              Includes everything listed in the Classic package, but I will also
+              go to the reception site for approximately 2 hours.
             </p>
+            <li className="ml-8">Hours of coverage</li>
+            <li className="ml-8 ">Number of photos</li>
+            <li className="ml-8 mb-4">
+              Destination weddings - travel compensated
+            </li>
+            <p className="mb-4">
+              Both packages include an engagement session and gallery available
+              for those save-the-dates and invitations!{" "}
+            </p>
+            <Link className="text-md font-normal mt-4 underline" href="/">
+              Download Full Guide
+            </Link>
           </div>
         </div>
       </div>
 
-      <div className="bg-white w-7/8 md:w-6/8 h-100 mt-8 mb-8">
-        <h2 className="text-3xl text-center m-8">Mini Sessions</h2>
-        info here
+      <div
+        id="other"
+        className="flex flex-col items-center w-7/8 md:w-6/8 h-100 mt-6 mb-8"
+      >
+        <h2 className="text-3xl text-center mt-8 mb-4">Other Sessions</h2>
+        <p>
+          For details about specialty sessions, please get in touch through the
+          contact form.
+        </p>
+        <div className="grid grid-cols-2 gap-6 mt-8">
+          <div className="bg-white p-4 md:pl-20 md:pr-20 text-center text-xl w-full">
+            <h3 className="mt-2 md:mt-0">Seasonal Minis</h3>
+            <Link href="/contact" className="text-sm italic">
+              Request Info &rarr;
+            </Link>
+          </div>
+          <div className="bg-white p-4 md:pl-20 md:pr-20 text-center text-xl w-full">
+            <h3>Business Headshots</h3>
+            <Link href="/contact" className="text-sm italic">
+              Request Info &rarr;
+            </Link>
+          </div>
+          <div className="bg-white p-4 md:pl-8 md:pr-8 text-center text-xl w-full">
+            <h3>Graduations</h3>
+            <Link href="/contact" className="text-sm italic">
+              Request Info &rarr;
+            </Link>
+          </div>
+          <div className="bg-white p-4 md:pl-8 md:pr-8 text-center text-xl w-full">
+            <h3>Prom</h3>
+            <Link href="/contact" className="text-sm italic">
+              Request Info &rarr;
+            </Link>
+          </div>
+        </div>
       </div>
     </main>
   );

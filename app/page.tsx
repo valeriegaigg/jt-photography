@@ -123,31 +123,31 @@ export default function Home() {
 
       <div className="-mt-15 w-full text-center md:mt-0">
         <Image
-          className="translate-x-57 translate-y-70 md:translate-y-30 md:translate-x-0 md:w-80 md:float-right"
+          className="translate-x-57 translate-y-70 md:translate-y-30 md:translate-x-0 md:w-1/4 md:float-right"
           src="/home/b-side.jpg"
           alt=""
           width={174}
           height={20}
         />
-        <div className="-translate-y-45  md:translate-y-55 md:ml-73">
+        <div className="-translate-y-45  md:translate-y-45 md:w-1/2 ml-auto mr-auto ">
           <h2 className="text-2xl p-6 mb-2">
             If you see beauty the way I do, let's work together!
           </h2>
-          <Link href="/" className="p-4 bg-white">
+          <Link href="/contact" className="p-4 bg-white">
             <span className="text-md italic">Contact me</span>
           </Link>
         </div>
 
         <div>
           <Image
-            className="-translate-y-25 md:-translate-y-15 md:w-90"
+            className="-translate-y-25 md:-translate-y-1 md:w-1/4"
             src="/home/b-left.jpg"
             alt=""
             width={200}
             height={20}
           />
           <Image
-            className="w-3/4 translate-x-1/5 -translate-y-30 md:translate-x-78 md:-translate-y-55 md:w-1/3"
+            className="w-3/4 translate-x-1/5 -translate-y-30 md:translate-x-2/3 md:-translate-y-3/5 md:w-1/3"
             src="/home/b-bottom.jpg"
             alt=""
             width={500}
