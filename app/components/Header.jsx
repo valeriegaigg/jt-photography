@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Hamburger from '../nav/Hamburger';
+import Hamburger from './Hamburger';
 
 
 function Header() {

@@ -13,7 +13,7 @@ export default function Home() {
           height={20}
         />
         <Image
-          className="hidden md:block -translate-y-40 w-full"
+          className="hidden md:block -translate-y-60 w-full"
           src="/home/jt-homebanner-large.jpg"
           alt="Family walking in snow"
           width={1000}
@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className="text-3xl font-italiana">
           Making memories to last a lifetime...
         </h2>
-        <p className="p-4 mt-2 mb-2 leading-7 md:w-xl">
+        <p className="p-4 mt-2 mb-2 leading-8 md:w-xl">
           {" "}
           Your photography session is all about you, your family, and your
           memories. Be your true self. Show your fun, quirky personality. Do the

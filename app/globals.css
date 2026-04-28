@@ -28,8 +28,7 @@ body {
   background: var(--background);
   color: var(--foreground); 
   font-weight: 100;
-  line-height: 1.5em;
-  
+  line-height: 1.5em;  
 }
 
 h2{
@@ -41,3 +40,29 @@ h2{
  
 }
 
+#contact{
+  background-color: #ffffffd0;
+}
+
+input, textarea{
+  width: 100%;
+  border-bottom: .8px solid black;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+textarea{
+  height: 100px;
+  width: 100%;
+}
+input:active{
+  border: none;
+}
+
+button{
+  align-self: center;
+  padding: 3px;
+  width: 25%;
+  margin-top: 20px;
+  background-color: rgb(152, 167, 181);
+  border-radius: 2px;
+}
