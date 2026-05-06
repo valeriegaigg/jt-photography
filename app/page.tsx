@@ -86,7 +86,7 @@ export default function Home() {
       </Link>
 
       <div className="md:grid grid-cols-3 md:max-w-6/8 mt-6 items-center">
-        <div className="w-full relative z-2">
+        <div className="w-full sm:ml-25 md:ml-0 relative z-2">
           <Image
             className="mt-6"
             src="/home/home-about.jpg"
@@ -121,7 +121,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h2 className="w-4/5 text-2xl mt-20 mb-4 text-center">
+      <h2 className="w-4/5 text-3xl mt-20 mb-4 text-center">
         If you see beauty the way I do, let's work together!
       </h2>
       <Link href="/contact" className="p-3 mb-8 bg-white">

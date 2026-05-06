@@ -41,9 +41,11 @@ export default function ContactPage() {
           To schedule a session or request into, please fill out the form below.
           If you don't hear from me within 3 business days after submitting your
           inquiry, feel free to contact me directly at: <br />
-          Email: jentabbert@gmail.com
+          jentabbert@gmail.com
           <br />
-          Phone: (920) 858-1412
+          <a className="underline" href="tel:(920) 858-1412" target="_blank">
+            (920) 858-1412
+          </a>
         </p>
       </div>
       <div
