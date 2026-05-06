@@ -169,7 +169,7 @@ export default function InvestmentPage() {
             </Link>
           </div>
           <Image
-            className="mr-auto ml-auto pb-8 md:w-full"
+            className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
             src="/invest/7.jpg"
             alt=""
             width={420}
@@ -204,7 +204,7 @@ export default function InvestmentPage() {
             <li className="ml-8">no. of images, online gallery</li>
           </div>
           <Image
-            className="mr-auto ml-auto pb-8 md:w-full"
+            className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
             src="/invest/5.jpg"
             alt=""
             width={420}
@@ -242,7 +242,7 @@ export default function InvestmentPage() {
             </p>
           </div>
           <Image
-            className="mr-auto ml-auto pb-8 md:w-full"
+            className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
             src="/invest/maternity.jpg"
             alt=""
             width={420}

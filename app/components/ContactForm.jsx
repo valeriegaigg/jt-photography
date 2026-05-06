@@ -6,8 +6,8 @@ function ContactForm() {
 
   if (state.succeeded) {
     return (
-       <div className="w-full flex flex-col text-center">
-                <p>Thank you! I'll be in touch soon.</p><button className="contactbtn" onClick={reset}>Reset</button>
+       <div className="w-full flex flex-col text-center items-center mb-80">
+                <p>Thank you! I'll be in touch soon.</p><button onClick={reset}>Reset</button>
         </div>
     )
   }
@@ -35,9 +35,9 @@ function ContactForm() {
         <label htmlFor="message">
           Message
         </label>
-        <textarea id="message" name="message" placeholder="Please include the type on session you are looking for." required/>
+        <textarea id="message" name="message" placeholder="Please include the type of session you are interested in." required/>
         
-        <button className="contactbtn" type="submit">
+        <button type="submit">
           Send
         </button>
         <ValidationError errors={state.errors} />

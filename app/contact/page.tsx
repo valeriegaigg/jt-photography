@@ -43,13 +43,16 @@ export default function ContactPage() {
           inquiry, feel free to contact me directly at: <br />
           Email: jentabbert@gmail.com
           <br />
+          Phone: (920) 858-1412
         </p>
       </div>
       <div
         id="contact"
         className="flex flex-col items-center z-4 pb-8 w-full mb-8 md:w-3/5 xl:w-1/2 self-center md:self-end md:mr-15 xl:mr-25 md:-mt-120"
       >
-        <h2 className="text-2xl text-center mt-6 mb-4">Send a Message</h2>
+        <h2 className="text-2xl text-center mt-8 md:mt-6 mb-4">
+          Send a Message
+        </h2>
         <ContactForm />
       </div>
     </div>
