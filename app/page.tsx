@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import secret from "../test/test";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           memories. Be your true self. Show your fun, quirky personality. Do the
           things that make you happy. Laugh loudly. Hug tightly.
         </p>
+        <p>{secret}</p>
       </div>
       <div className="mt-8 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full">
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
