@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Hamburger from './Hamburger';
 
 
+
 function Header() {
   return (
     <header>
@@ -19,26 +20,42 @@ function Header() {
         <Hamburger />
       </div>
       
-      <div className="hidden md:flex flex-col items-center mt-5 relative z-10">
+      <div className="hidden md:flex flex-col items-center mt-5 absolute left-1/4 w-1/2 z-10">
         <img
           src="/jtlogo1.png"
           alt="Jennifer Tabbert Photography logo"
           style={{
-              width: "35%",
+              width: "70%",
               height: "auto",
             }}
           /> 
-        <nav className='flex gap-8 mt-6 font-italiana text-xl'>
+        <nav className='flex gap-12 mt-6 font-italiana text-xl'>
             <Link href="/">
           Home
         </Link>
         <Link href="/about">
           About
         </Link>
-        <Link href="/portfolio">
+        <div className='portfolio cursor-pointer'>
           Portfolio
-        </Link>
-        
+          <div id='drop' className='hidden justify-center text-[16px] leading-7 flex-col font-montserrat'>
+            <Link href="/about">
+              Family
+            </Link>
+            <Link href="/seniorgirl">
+              Senior Girl
+            </Link>
+            <Link href="/about">
+              Senior Boy
+            </Link>
+            <Link href="/about">
+              Wedding
+            </Link>
+            <Link href="/about">
+              Baby
+            </Link>
+        </div>
+        </div>
         <Link href="/investment">
           Investment
         </Link>
@@ -46,6 +63,8 @@ function Header() {
           Contact 
         </Link>
         </nav>
+
+        
             
       
       </div>

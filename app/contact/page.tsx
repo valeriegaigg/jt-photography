@@ -27,13 +27,13 @@ export default function ContactPage() {
         height={20}
       />
       <Image
-        className="hidden md:block -translate-y-60 w-full"
+        className="hidden md:block -translate-y-25 w-full"
         src="/contact/bannera.jpg"
         alt=""
         width={1000}
         height={20}
       />
-      <div className="text-left leading-8 md:m-8 xl:ml-15">
+      <div className="text-left leading-8 md:mt-40 md:m-8 xl:ml-15">
         <h2 className="text-3xl text-center md:text-left m-6 md:-mt-55">
           Contact
         </h2>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Footer() {
 
   return (
-    <footer className='text-center text-sm justify-center pt-6 pb-6 w-full bottom-auto h-auto bg-footer'>
+    <footer className='text-center text-sm justify-center pt-6 pb-6 w-full bottom-auto h-auto bg-slate'>
       <div className='flex flex-col md:flex-row justify-between'>
         <div className='flex justify-center md:ml-8 gap-3 mr-0'>
           <Image src="/Asset 3.png"

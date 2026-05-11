@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import secret from "../test/test";
 
 export default function Home() {
   return (
@@ -14,14 +13,14 @@ export default function Home() {
           height={20}
         />
         <Image
-          className="hidden md:block -translate-y-60 w-full"
+          className="hidden md:block w-full -translate-y-20"
           src="/home/jt-homebanner-large.jpg"
           alt="Family walking in snow"
           width={1000}
           height={20}
         />
       </div>
-      <div className="content text-center p-4 mt-4 md:-mt-55">
+      <div className="content text-center p-4 mt-4 md:-mt-15">
         <h1 className="text-sm m-2">Appleton, WI Photographer</h1>
         <h2 className="text-3xl font-italiana">
           Making memories to last a lifetime...
@@ -32,7 +31,6 @@ export default function Home() {
           memories. Be your true self. Show your fun, quirky personality. Do the
           things that make you happy. Laugh loudly. Hug tightly.
         </p>
-        <p>{secret}</p>
       </div>
       <div className="mt-8 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full">
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">

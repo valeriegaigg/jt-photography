@@ -33,7 +33,27 @@ export default function HamburgerComponent(){
     <div className='text-center leading-15 text-lg'>
       <Link  href="/" onClick={closeMenu}>Home</Link><br />
       <Link href="/about" onClick={closeMenu}>About</Link><br />
-      <Link href="/portfolio" onClick={closeMenu}>Portfolio</Link><br />
+      <div onClick={closeMenu} className='portfolio cursor-pointer -mb-15'>
+          Portfolio:
+          <div id='drop' className='hidden justify-center text-[16px] leading-10 flex-col '>
+            <Link href="/about">
+              Family
+            </Link>
+            <Link href="/seniorgirl">
+              Senior Girl
+            </Link>
+            <Link href="/about">
+              Senior Boy
+            </Link>
+            <Link href="/about">
+              Wedding
+            </Link>
+            <Link href="/about">
+              Baby
+            </Link>
+        </div>
+        </div>
+      <br />
       <Link href="/investment" onClick={closeMenu}>Investment</Link><br />
       <Link href="/contact" onClick={closeMenu}>Contact</Link><br />
     </div>

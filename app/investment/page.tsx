@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function InvestmentPage() {
   return (
     <main className="flex flex-col items-center">
-      <div className="w-full  md:flex md:flex-row-reverse mt-2 md:mt-10">
+      <div className="w-full  md:flex md:flex-row-reverse mt-2 md:mt-48">
         <div className="md:w-3/5">
           <Image src="/invest/m-op.jpg" alt="" width={900} height={20} />
         </div>
@@ -142,7 +142,7 @@ export default function InvestmentPage() {
 
       <div
         id="seniors"
-        className="flex flex-col mt-8 items-center w-full bg-white"
+        className="flex flex-col mt-10 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -180,7 +180,7 @@ export default function InvestmentPage() {
 
       <div
         id="families"
-        className="flex flex-col mt-8 items-center w-full bg-white"
+        className="flex flex-col mt-10 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -215,7 +215,7 @@ export default function InvestmentPage() {
 
       <div
         id="babies"
-        className="flex flex-col mt-8 items-center w-full bg-white"
+        className="flex flex-col mt-10 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -253,7 +253,7 @@ export default function InvestmentPage() {
 
       <div
         id="weddings"
-        className="flex flex-col mt-8 items-center w-full bg-white"
+        className="flex flex-col mt-10 items-center w-full bg-white"
       >
         <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
           <Image
@@ -263,7 +263,7 @@ export default function InvestmentPage() {
             width={420}
             height={20}
           />
-          <div className="w-auto ml-4 p-8 col-span-3 leading-8">
+          <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Weddings</h2>
             <h3 className="text-xl mb-2">The Classic Wedding:</h3>
             <p>
@@ -291,6 +291,13 @@ export default function InvestmentPage() {
               Download Full Guide
             </Link>
           </div>
+          <Image
+            className="mr-auto ml-auto pb-8 md:w-full"
+            src="/invest/8.jpg"
+            alt=""
+            width={420}
+            height={20}
+          />
         </div>
       </div>
 
