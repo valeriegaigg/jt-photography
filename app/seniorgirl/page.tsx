@@ -1,4 +1,4 @@
-// app/portfolio/page.tsx
+// app/seniorgirl/page.tsx
 import type { Metadata } from "next";
 import Image from "next/image";
 
@@ -270,6 +270,34 @@ export default function SeniorGirl() {
         <Image
           className="w-full"
           src="/galleries/seniorgirl/36.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/seniorgirl/37.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/seniorgirl/38.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/seniorgirl/39.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/seniorgirl/40.jpg"
           alt=""
           width={400}
           height={20}
