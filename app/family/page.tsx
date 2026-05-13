@@ -1,0 +1,282 @@
+// app/family/page.tsx
+import type { Metadata } from "next";
+import Image from "next/image";
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: true,
+      noimageindex: true,
+    },
+  },
+};
+
+export default function Family() {
+  return (
+    <div className="w-full flex flex-col justify-center p-5">
+      <h2 className="text-3xl text-center md:mt-50 md:ml-8 md:text-left md:pl-8">
+        Family
+      </h2>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-8 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/2w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/1w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-2 md:grid-cols-3 mt-8 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/1.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/3.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/4.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/5.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/7.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/6.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/16w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/17w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-3 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/8.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/11.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/15.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/12.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/13.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/14.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/10w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/9w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-3 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/15.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/18.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/19.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/20.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/21.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/24.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/22w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/23w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-3 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/32.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/28.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/27.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/26.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/31.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/25.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-2 mb-2">
+        <Image
+          className="w-full"
+          src="/galleries/family/29w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+        <Image
+          className="w-full"
+          src="/galleries/family/35w.jpg"
+          alt=""
+          width={400}
+          height={20}
+        />
+      </div>
+    </div>
+  );
+}

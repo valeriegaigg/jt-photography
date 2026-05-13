@@ -36,19 +36,19 @@ export default function HamburgerComponent(){
       <div onClick={closeMenu} className='portfolio cursor-pointer -mb-15'>
           Portfolio:
           <div id='drop' className='hidden justify-center text-[16px] leading-10 flex-col '>
-            <Link href="/about">
+            <Link href="/family">
               Family
             </Link>
             <Link href="/seniorgirl">
               Senior Girl
             </Link>
-            <Link href="/about">
+            <Link href="/seniorboy">
               Senior Boy
             </Link>
-            <Link href="/about">
+            <Link href="/wedding">
               Wedding
             </Link>
-            <Link href="/about">
+            <Link href="/baby">
               Baby
             </Link>
         </div>
