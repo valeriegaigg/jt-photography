@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 export default function InvestmentPage() {
   return (
     <main className="flex flex-col items-center">
-      <div className="w-full  md:flex md:flex-row-reverse mt-2 md:mt-48">
-        <div className="md:w-3/5">
-          <Image src="/invest/m-op.jpg" alt="" width={900} height={20} />
+      <div className="w-full  md:grid md:grid-cols-2 mt-2 md:mt-48 3xl:mt-60">
+        <div className="md:ml-8">
+          <Image src="/invest/m-op.jpg" alt="" width={2000} height={20} />
         </div>
-        <div className="leading-8 md:p-10 m-4 p-4">
+        <div className="md:order-first md:leading-8 md:p-10 p-4">
           <h2 className="text-3xl text-center mb-4 md:text-left">Investment</h2>
           <p>
             You deserve a unique, tailored approach to your photo session, no
@@ -44,101 +44,6 @@ export default function InvestmentPage() {
           </div>
         </div>
       </div>
-
-      {/* <div className="mt-4 grid md:grid-cols-3 md:gap-8 w-7/8">
-        <div className="flex flex-col items-center text-center md:translate-y-35">
-          <h2 className="text-3xl mb-4">Seniors</h2>
-          <div className="w-3/5 relative z-4">
-            <Image
-              className="w-full h-auto"
-              src="/invest/2-op.jpg"
-              alt=""
-              width={400}
-              height={20}
-            />
-          </div>
-          <div className="flex flex-col items-center text-left bg-white relative z-1 -mt-25 pt-30 pb-8 w-full leading-8">
-            <h3 className="w-80 text-xl mt-2">Package 1:</h3>
-            <p className="text-left w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <h3 className="w-80 text-xl mt-4">Package 2:</h3>
-            <p className="w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <p className="mt-6 text-sm italic">Starting at $475</p>
-            <p className="mt-2 text-sm italic underline">View Gallery</p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center text-center mb-15 mt-15">
-          <h2 className="text-3xl mb-4">Families</h2>
-          <div className="w-3/5 relative z-4">
-            <Image
-              className="w-full h-auto"
-              src="/invest/3-op.jpg"
-              alt=""
-              width={400}
-              height={20}
-            />
-          </div>
-          <div className="flex flex-col items-center text-left bg-white relative z-1 -mt-25 pt-30 pb-8 w-full leading-8">
-            <h3 className="w-80 text-xl mt-2">Package 1:</h3>
-            <p className="text-left w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <h3 className="w-80 text-xl mt-4">Package 2:</h3>
-            <p className="w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <p className="mt-6 text-sm italic">Starting at $475</p>
-            <p className="mt-2 text-sm italic underline">View Gallery</p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center text-center mb-15 mt-15 md:translate-y-20">
-          <h2 className="text-3xl mb-4">Babies</h2>
-          <div className="w-3/5 relative z-4 md:w-3/5">
-            <Image
-              className="w-full h-auto"
-              src="/invest/1-op.jpg"
-              alt=""
-              width={450}
-              height={50}
-            />
-          </div>
-          <div className="flex flex-col items-center text-left bg-white relative z-1 -mt-25 pt-30 pb-8 w-full leading-8">
-            <h3 className="w-80 text-xl mt-2">Package 1:</h3>
-            <p className="text-left w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <h3 className="w-80 text-xl mt-4">Package 2:</h3>
-            <p className="w-80 mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-              odio numquam, consequatur repudiandae eum molestiae consectetur
-              sit temporibus quo vel aspernatur, voluptatibus perspiciatis
-              tenetur, veniam debitis. Iure accusamus deleniti a.
-            </p>
-            <p className="mt-6 text-sm italic">Starting at $475</p>
-            <p className="mt-2 text-sm italic underline">View Gallery</p>
-          </div>
-        </div>
-      </div> */}
 
       <div
         id="seniors"

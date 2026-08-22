@@ -26,18 +26,18 @@ export default function Family() {
           className="w-full"
           src="/galleries/family/2w.jpg"
           alt=""
-          width={400}
+          width={640}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/1w.jpg"
           alt=""
-          width={400}
+          width={640}
           height={20}
         />
       </div>
-      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-2 md:grid-cols-3 mt-8 mb-2">
+      <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-2 md:grid-cols-3 mt-2 mb-2">
         <Image
           className="w-full"
           src="/galleries/family/1.jpg"

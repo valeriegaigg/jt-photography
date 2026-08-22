@@ -30,7 +30,7 @@ export default function ContactPage() {
         className="hidden md:block -translate-y-25 w-full"
         src="/contact/bannera.jpg"
         alt=""
-        width={1000}
+        width={4000}
         height={20}
       />
       <div className="text-left leading-8 md:mt-40 md:m-8 xl:ml-15">

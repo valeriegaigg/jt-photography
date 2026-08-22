@@ -16,7 +16,7 @@ export default function Home() {
           className="hidden md:block w-full -translate-y-20"
           src="/home/jt-homebanner-large.jpg"
           alt="Family walking in snow"
-          width={1000}
+          width={2500}
           height={20}
         />
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
           things that make you happy. Laugh loudly. Hug tightly.
         </p>
       </div>
-      <div className="mt-8 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full">
+      <div className="max-w-screen-2xl p-12 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full">
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
@@ -42,13 +42,15 @@ export default function Home() {
             height={20}
           />
         </div>
-        <div className="ml-5 mt-4 p-2 md:mt-65 md:ml-25">
+        <div className="ml-5 mt-4 p-2 md:mt-65 md:ml-25 text-center md:text-left">
           <h2 className="text-2xl">Families</h2>
-          <span className="text-sm italic">View Gallery</span>
+          <Link className="text-sm italic " href="/family">
+            View Gallery
+          </Link>
         </div>
       </div>
 
-      <div className="mt-12 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row-reverse md:w-full">
+      <div className="max-w-screen-2xl p-12 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row-reverse md:w-full">
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
@@ -58,13 +60,18 @@ export default function Home() {
             height={20}
           />
         </div>
-        <div className="mt-4 p-2 md:mt-65 md:mr-20">
+        <div className="mt-4 p-2 md:mt-65 md:mr-20 text-center md:text-right">
           <h2 className="text-2xl">Seniors</h2>
-          <span className="text-sm italic">View Gallery</span>
+          <Link className="text-sm italic " href="/seniorgirl">
+            View Girl's Gallery |
+          </Link>
+          <Link className="text-sm italic " href="/seniorboy">
+            | View Boy's Gallery
+          </Link>
         </div>
       </div>
 
-      <div className="mt-10 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full md:mt-15">
+      <div className="max-w-screen-2xl p-12 -ml-6 flex flex-col max-w-6/8 text-center md:flex-row md:w-full md:mt-15">
         <div className="max-w-2xs bg-white max-h-sm md:max-w-lg">
           <Image
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
@@ -74,18 +81,18 @@ export default function Home() {
             height={20}
           />
         </div>
-        <div className="ml-5 mt-4 p-2 md:mt-65 md:ml-25">
+        <div className="ml-5 mt-4 p-2 md:mt-65 md:ml-25 text-center md:text-left">
           <h2 className="text-2xl">Babies</h2>
-          <Link className="text-sm italic " href="/portfolio">
+          <Link className="text-sm italic " href="/baby">
             View Gallery
           </Link>
         </div>
       </div>
-      <Link href="/portfolio" className="p-4 md:mt-5 underline">
+      {/* <Link href="/portfolio" className="p-4 md:mt-5 underline">
         <span className="text-md italic">Explore my portfolio &rarr;</span>
-      </Link>
+      </Link> */}
 
-      <div className="md:grid grid-cols-3 md:max-w-6/8 mt-6 items-center">
+      <div className="md:grid grid-cols-3 md:max-w-screen-2xl mt-6 items-center">
         <div className="w-full sm:ml-25 md:ml-0 relative z-2">
           <Image
             className="mt-6"
@@ -96,7 +103,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="bg-white w-full col-span-2 flex flex-col items-center leading-8 p-6 z-1 ">
+        <div className="bg-white w-full col-span-2 flex flex-col items-center leading-8 p-10 z-1 ">
           <h2 className="text-2xl text-center mt-4 md:mt-8">
             Hola friends! I'm Jen Tabbert
           </h2>

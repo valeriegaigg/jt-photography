@@ -15,7 +15,7 @@
 
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
-  --breakpoint-md: 768px;
+  --breakpoint-3xl: 1800px;
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -31,6 +31,9 @@ body {
   color: var(--foreground); 
   font-weight: 100;
   line-height: 1.5em;  
+  /* max-width: 2000px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2{

@@ -34,7 +34,7 @@ export default function HamburgerComponent(){
       <Link  href="/" onClick={closeMenu}>Home</Link><br />
       <Link href="/about" onClick={closeMenu}>About</Link><br />
       <div onClick={closeMenu} className='portfolio cursor-pointer -mb-15'>
-          Portfolio:
+          Portfolio &darr;
           <div id='drop' className='hidden justify-center text-[16px] leading-10 flex-col '>
             <Link href="/family">
               Family

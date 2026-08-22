@@ -20,12 +20,13 @@ function Header() {
         <Hamburger />
       </div>
       
-      <div className="hidden md:flex flex-col items-center mt-5 absolute left-1/4 w-1/2 z-10">
+      <div className="hidden md:flex flex-col items-center mt-8 absolute left-1/4 w-1/2 z-10">
         <img
           src="/jtlogo1.png"
           alt="Jennifer Tabbert Photography logo"
+          className="max-w-[500px] max-h-[200px]"
           style={{
-              width: "70%",
+              width: "75%",
               height: "auto",
             }}
           /> 
