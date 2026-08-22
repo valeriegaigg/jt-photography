@@ -20,9 +20,15 @@ export const metadata: Metadata = {
 export default function InvestmentPage() {
   return (
     <main className="flex flex-col items-center">
-      <div className="w-full  md:grid md:grid-cols-2 mt-2 md:mt-48 3xl:mt-60">
-        <div className="md:ml-8">
-          <Image src="/invest/m-op.jpg" alt="" width={2000} height={20} />
+      {/* <div className="w-7/8 justify-items-center md:grid md:grid-cols-2 mt-2 md:mt-48 3xl:mt-60">
+        <div className="w-full md:ml-8 md:bg-white md:max-w-xl md:mt-8">
+          <Image
+            src="/invest/m-op.jpg"
+            className="md:min-w-xl md:-translate-x-6 md:-translate-y-6"
+            alt=""
+            width={2000}
+            height={20}
+          />
         </div>
         <div className="md:order-first md:leading-8 md:p-10 p-4">
           <h2 className="text-3xl text-center mb-4 md:text-left">Investment</h2>
@@ -43,13 +49,43 @@ export default function InvestmentPage() {
             <Link href="#other">Other &darr;</Link>
           </div>
         </div>
+      </div> */}
+      <div className="w-full md:max-w-[2000px] md:mt-48 md:grid md:grid-cols-3 md:gap-4 md:p-4 md:mb-8">
+        <div className="w-full md:w-7/8 md:ml-12 2xl:bg-white md:order-last">
+          <Image
+            src="/invest/m-op.jpg"
+            className="md:-translate-x-6 md:translate-y-6"
+            alt=""
+            width={2000}
+            height={20}
+          />
+        </div>
+        <div className="w-full h-auto col-span-2 leading-8 p-8">
+          <h2 className="text-3xl text-center mb-4 md:text-left">Investment</h2>
+          <p>
+            You deserve a unique, tailored approach to your photo session, no
+            matter the ocassion. Kids grow and change so fast- each age and
+            stage is so unique.
+          </p>
+          <p className="mt-4">
+            Please contact me with any questions about what session is right for
+            you.
+          </p>
+          <div className="mt-20 font-normal flex flex-row flex-wrap gap-6">
+            <Link href="#seniors">Seniors &darr;</Link>
+            <Link href="#families">Families &darr;</Link>
+            <Link href="#babies">Babies &darr;</Link>
+            <Link href="#weddings">Weddings &darr;</Link>
+            <Link href="#other">Other &darr;</Link>
+          </div>
+        </div>
       </div>
 
       <div
         id="seniors"
         className="flex flex-col mt-10 items-center w-full bg-white"
       >
-        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
+        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8 max-w-[2000px]">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/2-op.jpg"
@@ -87,7 +123,7 @@ export default function InvestmentPage() {
         id="families"
         className="flex flex-col mt-10 items-center w-full bg-white"
       >
-        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
+        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8 max-w-[2000px]">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/3-op.jpg"
@@ -122,7 +158,7 @@ export default function InvestmentPage() {
         id="babies"
         className="flex flex-col mt-10 items-center w-full bg-white"
       >
-        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
+        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8 max-w-[2000px]">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/1-op.jpg"
@@ -160,7 +196,7 @@ export default function InvestmentPage() {
         id="weddings"
         className="flex flex-col mt-10 items-center w-full bg-white"
       >
-        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8">
+        <div className="md:w-7/8 md:grid md:grid-cols-4 md:mt-8 max-w-[2000px]">
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/4.jpg"
@@ -198,9 +234,9 @@ export default function InvestmentPage() {
           </div>
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
-            src="/invest/8.jpg"
+            src="/invest/yang5.jpg"
             alt=""
-            width={420}
+            width={500}
             height={20}
           />
         </div>

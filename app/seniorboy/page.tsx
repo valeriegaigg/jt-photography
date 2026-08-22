@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function SeniorBoy() {
   return (
     <div className="w-full max-w-[2000px] mx-auto flex flex-col justify-center p-5">
-      <h2 className="text-3xl text-center md:mt-50 md:ml-16 md:text-left md:pl-8">
+      <h2 className="text-3xl text-center md:mt-55 md:ml-16 md:text-left md:pl-8">
         Senior Boy
       </h2>
       <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-8 mb-2">

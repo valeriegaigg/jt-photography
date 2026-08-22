@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 
 export default function Baby() {
   return (
-    <div className="w-full flex flex-col justify-center p-5">
-      <h2 className="text-3xl text-center md:mt-50 md:ml-8 md:text-left md:pl-8">
+    <div className="w-full max-w-[2000px] mx-auto flex flex-col justify-center p-5">
+      <h2 className="text-3xl text-center md:mt-55 md:ml-16 md:text-left md:pl-8">
         Baby
       </h2>
       <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-1 md:grid-cols-2 mt-8 mb-2">
@@ -26,112 +26,112 @@ export default function Baby() {
           className="w-full"
           src="/galleries/baby/1w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/2w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/5.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/11.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/3w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/4w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/6.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/15.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/7w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/8w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/9w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/10w.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/12.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/13.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/14.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/18.jpg"
           alt=""
-          width={400}
+          width={1200}
           height={20}
         />
       </div>
