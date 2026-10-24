@@ -24,14 +24,14 @@ export default function Wedding() {
       <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-2 md:grid-cols-3 mt-8 mb-2">
         <Image
           className="w-full"
-          src="/galleries/wedding/7.jpg"
+          src="/galleries/wedding/1.jpg"
           alt=""
           width={700}
           height={20}
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/1.jpg"
+          src="/galleries/wedding/7.jpg"
           alt=""
           width={700}
           height={20}
@@ -45,21 +45,21 @@ export default function Wedding() {
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/3.jpg"
+          src="/galleries/wedding/yang3.jpg"
           alt=""
           width={700}
           height={20}
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/2.jpg"
+          src="/galleries/wedding/yang4.jpg"
           alt=""
           width={700}
           height={20}
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/8.jpg"
+          src="/galleries/wedding/yang2.jpg"
           alt=""
           width={700}
           height={20}
@@ -84,21 +84,21 @@ export default function Wedding() {
       <div className="md:w-9/10 ml-auto mr-auto gap-2 grid grid-cols-2 md:grid-cols-3 mt-2 mb-2">
         <Image
           className="w-full"
-          src="/galleries/wedding/yang3.jpg"
+          src="/galleries/wedding/3.jpg"
           alt=""
           width={700}
           height={20}
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/yang4.jpg"
+          src="/galleries/wedding/2.jpg"
           alt=""
           width={700}
           height={20}
         />
         <Image
           className="w-full"
-          src="/galleries/wedding/yang2.jpg"
+          src="/galleries/wedding/8.jpg"
           alt=""
           width={700}
           height={20}

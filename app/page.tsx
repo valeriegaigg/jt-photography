@@ -122,7 +122,7 @@ export default function Home() {
               who a child really is, inside as well as out.
             </p>
           </div>
-          <Link href="/about" className="p-4 md:mt-6 underline">
+          <Link href="/about" className="p-4 md:mt-6">
             <span className="text-md italic">More about me &rarr;</span>
           </Link>
         </div>
