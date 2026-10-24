@@ -25,14 +25,14 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/2w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/1w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
@@ -41,42 +41,42 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/1.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/3.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/4.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/5.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/7.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/6.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
@@ -85,14 +85,14 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/16w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/17w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
@@ -101,42 +101,42 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/8.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/11.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/15.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/12.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/13.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/14.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
@@ -145,14 +145,14 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/10w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/9w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
@@ -161,42 +161,42 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/15.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/18.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/19.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/20.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/21.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/24.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
@@ -205,14 +205,14 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/22w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/23w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
@@ -221,42 +221,42 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/32.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/28.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/27.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/26.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/31.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/25.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={700}
           height={20}
         />
@@ -265,14 +265,14 @@ export default function Family() {
         <Image
           className="w-full"
           src="/galleries/family/29w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/family/35w.jpg"
-          alt=""
+          alt="Appleton Family Photography"
           width={1500}
           height={20}
         />

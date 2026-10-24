@@ -25,112 +25,112 @@ export default function Baby() {
         <Image
           className="w-full"
           src="/galleries/baby/1w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/2w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/5.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/11.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/3w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/4w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/6.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/15.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/7w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/8w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/9w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/10w.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/12.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/13.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/14.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/baby/18.jpg"
-          alt=""
+          alt="Appleton Baby Photography"
           width={1200}
           height={20}
         />

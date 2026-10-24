@@ -26,280 +26,280 @@ export default function SeniorGirl() {
           className="w-full"
           src="/galleries/seniorgirl/1.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/8.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/31.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/3.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/5.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/29.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/4.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/2.jpg"
           alt="Girl in field"
-          width={500}
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/6.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/10.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/7.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/9.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/11.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/14.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/13.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/12.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/15.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/16.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/17.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/18.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/19.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/20.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/21.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/22.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/23.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/24.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/25.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/26.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/27.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/34.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/30.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/32.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/33.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/28.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/35.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/36.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/37.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/38.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/39.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorgirl/40.jpg"
-          alt=""
-          width={500}
+          alt="Senior girl"
+          width={700}
           height={20}
         />
       </div>

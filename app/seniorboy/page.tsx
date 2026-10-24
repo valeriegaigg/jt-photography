@@ -25,14 +25,14 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/1w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/8w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
@@ -41,57 +41,57 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/2.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/18.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/20.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/9.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/17.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/11.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/19.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/24.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
       </div>
@@ -99,14 +99,14 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/3w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/7w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
@@ -115,57 +115,57 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/10.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/13.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/12.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/15.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/22.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/5.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/23.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/21.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
       </div>
@@ -173,14 +173,14 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/25w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/27w.jpg"
-          alt=""
+          alt="Appleton Senior Boy Photography"
           width={1000}
           height={20}
         />
@@ -189,29 +189,29 @@ export default function SeniorBoy() {
         <Image
           className="w-full"
           src="/galleries/seniorboy/26.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/28.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/29.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/seniorboy/30.jpg"
-          alt=""
-          width={500}
+          alt="Appleton Senior Boy Photography"
+          width={700}
           height={20}
         />
       </div>

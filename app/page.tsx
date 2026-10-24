@@ -38,7 +38,7 @@ export default function Home() {
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
             src="/home/main-1.jpg"
             alt="Family walking in field"
-            width={400}
+            width={700}
             height={20}
           />
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
             src="/home/main-2.jpg"
             alt="Football player in field"
-            width={400}
+            width={700}
             height={20}
           />
         </div>
@@ -77,7 +77,7 @@ export default function Home() {
             className="min-w-2xs translate-x-6 -translate-y-6  md:min-w-lg"
             src="/home/main-3.jpg"
             alt="Newborn baby"
-            width={400}
+            width={700}
             height={20}
           />
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
             className="mt-6"
             src="/home/home-about.jpg"
             alt="Portrait"
-            width={500}
+            width={700}
             height={20}
           />
         </div>

@@ -25,42 +25,42 @@ export default function Wedding() {
         <Image
           className="w-full"
           src="/galleries/wedding/1.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/7.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/4.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/yang3.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/yang4.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/yang2.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
@@ -69,14 +69,14 @@ export default function Wedding() {
         <Image
           className="w-full"
           src="/galleries/wedding/11w.jpg"
-          alt=""
+          alt="Bride and groom"
           width={1000}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/5w.jpg"
-          alt=""
+          alt="Bride and groom"
           width={1000}
           height={20}
         />
@@ -85,105 +85,105 @@ export default function Wedding() {
         <Image
           className="w-full"
           src="/galleries/wedding/3.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/2.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/8.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/9.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/10.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/12.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/13.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/14.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/15.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/16.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/17.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/18.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/19.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/22.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
         <Image
           className="w-full"
           src="/galleries/wedding/21.jpg"
-          alt=""
+          alt="Bride and groom"
           width={700}
           height={20}
         />
