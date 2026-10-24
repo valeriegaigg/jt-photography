@@ -7,7 +7,7 @@ import Hamburger from './Hamburger';
 function Header() {
   return (
     <header>
-      <div className='flex flex-col items-center p-2 mt-4 md:hidden'>
+      <div className='flex flex-col items-center p-2 pt-8 md:hidden bg-white'>
       <img
           src="/jtlogo1.png"
           alt="Jennifer Tabbert Photography logo"

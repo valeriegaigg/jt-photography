@@ -95,19 +95,29 @@ export default function InvestmentPage() {
           />
           <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Seniors</h2>
-            <h3 className="text-xl mb-2">Package 1:</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-            </p>
-            <h3 className="text-xl mt-4 mb-2">Package 2:</h3>
-            <p className="mb-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae odit repellendus et facilis amet magni deleniti earum
-            </p>
-            <Link className="text-md font-normal mt-4 underline" href="/">
+            <h3 className="text-xl mb-2">Classic Package</h3>
+            <li className="ml-8">45 minute session</li>
+            <li className="ml-8">One location, two outfit limit</li>
+            <li className="ml-8">15 digital images in your online gallery</li>
+            <li className="ml-8 mb-2">Yearbook headshot of your choice</li>
+            <h4 className="italic">Package Price: $475</h4>
+
+            <h3 className="text-xl mt-6 mb-2">Epic Package</h3>
+            <li className="ml-8">2 hour session</li>
+            <li className="ml-8">Multiple locations, unlimited outfits</li>
+            <li className="ml-8">50 digital images in your online gallery</li>
+            <li className="ml-8 mb-2">Yearbook headshot of your choice</li>
+            <h4 className="italic">Package Price: $675</h4>
+
+            <h3 className="text-xl mt-6 mb-2">Family Add-On</h3>
+            <li className="ml-8">20 minute session add-on</li>
+            <li className="ml-8">Must be done same-day as main session</li>
+            <li className="ml-8 mb-2">10+ digital images</li>
+            <h4 className="italic">Package Price: +$300</h4>
+
+            {/* <Link className="text-md font-normal mt-4 underline" href="/">
               Download Guide
-            </Link>
+            </Link> */}
           </div>
           <Image
             className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
@@ -201,42 +211,77 @@ export default function InvestmentPage() {
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/4.jpg"
             alt=""
-            width={420}
+            width={700}
             height={20}
           />
           <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Weddings</h2>
-            <h3 className="text-xl mb-2">The Classic Wedding:</h3>
+            <h3 className="text-xl mb-2">Your Photography Experience</h3>
             <p>
-              Includes getting ready candids, couple and family portraits,
-              ceremony coverage, and one additional location for wedding party
-              portraits.
+              Your wedding photography investment includes a blend of artistic,
+              photojournalistic, and classic portrait styles, ensuring that
+              every meaningful detail, emotion, and moment of your day is
+              beautifully preserved. My goal is to create timeless images that
+              tell the story of your wedding day while providing an enjoyable
+              and stress-free experience from the engagement session to the
+              final gallery delivery.
             </p>
-            <li className="ml-8">Hours of coverage</li>
-            <li className="mb-4 ml-8">Number of photos</li>
-            <h3 className="text-xl mt-4 mb-2">The Epic Wedding:</h3>
-            <p>
-              Includes everything listed in the Classic package, but I will also
-              go to the reception site for approximately 2 hours.
+            <h3 className="text-xl mt-4 mb-2">The Classic Wedding:</h3>
+            <p className="ml-4 w-7/8">
+              I will arrive approximately 2 hours prior to the ceremony to
+              capture all of the special getting-ready moments, including the
+              dress, shoes, jewelry, and other meaningful details. These images
+              will be primarily candid in nature, with a few posed portraits
+              taken beforehand to allow for a smoother timeline between the
+              ceremony and reception.
             </p>
-            <li className="ml-8">Hours of coverage</li>
-            <li className="ml-8 ">Number of photos</li>
-            <li className="ml-8 mb-4">
-              Destination weddings - travel compensated
+            <li className="ml-8">Two hours pre-ceremony coverage</li>
+            <li className="ml-8">Full ceremony coverage</li>
+            <li className="ml-8">
+              Formal family portraits following the ceremony
             </li>
-            <p className="mb-4">
-              Both packages include an engagement session and gallery available
-              for those save-the-dates and invitations!{" "}
+            <li className="ml-8">Bride, groom, and wedding party portraits</li>
+            <li className="ml-8">
+              Travel to an additional location for creative portraits
+            </li>
+            <li className="ml-8">A secondary photographer</li>
+            <li className="ml-8">Complimentary engagement session</li>
+            <li className="ml-8 mb-2">
+              High-resolution digital images delivered on a USB drive, along
+              with a password-protected online gallery for sharing and
+              downloading images.
+            </li>
+
+            <h4 className="italic mb-2">Package Price: $2000 + tax</h4>
+            <h3 className="text-xl mt-4 mb-2">The Epic Wedding:</h3>
+            <p className="ml-4 w-7/8">
+              This package includes everything in the Classic Wedding package,
+              plus approximately 2 hours of reception coverage. Additional
+              reception coverage includes:
             </p>
-            <Link className="text-md font-normal mt-4 underline" href="/">
+            <li className="ml-8">Reception venue details and decor</li>
+            <li className="ml-8 ">Cake cutting, toasts, and speeches</li>
+            <li className="ml-8">First dances</li>
+            <li className="ml-8 mb-2">
+              Special moments and candid reception photographs
+            </li>
+            <h4 className="italic mb-4">Package Price: $2400 + tax</h4>
+
+            {/* <Link className="text-md font-normal mt-4 underline" href="/">
               Download Full Guide
+            </Link> */}
+
+            <Link href="/contact">
+              <span className="text-md italic">
+                Inquire about a destination wedding &rarr;
+              </span>
             </Link>
           </div>
           <Image
             className="mr-auto ml-auto pb-8 md:w-full"
             src="/invest/yang5.jpg"
             alt=""
-            width={500}
+            width={700}
             height={20}
           />
         </div>

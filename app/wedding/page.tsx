@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Wedding() {
   return (
-    <div className="w-full max-w-[2000px] mx-auto flex flex-col justify-center p-5">
+    <div className="w-full max-w-[2000px] mx-auto flex flex-col justify-center p-5 bg-white md:bg-(--background)">
       <h2 className="text-3xl text-center md:mt-55 md:ml-16 md:text-left md:pl-8">
         Wedding
       </h2>

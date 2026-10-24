@@ -17,7 +17,7 @@ function Footer() {
         <div className='flex flex-wrap justify-center mt-4 md:mt-0 md:mr-8 gap-6 md:gap-8'>
           <Link href="/">Home</Link>
           <Link href="/about" >About</Link>
-          <Link href="/portfolio" >Portfolio</Link>
+          <Link href="/family" >Portfolio</Link>
           <Link href="/investment" >Investment</Link>
           <Link href="/contact" >Contact</Link>
         </div>
