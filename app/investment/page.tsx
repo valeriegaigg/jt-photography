@@ -150,9 +150,9 @@ export default function InvestmentPage() {
               shoot. Family sessions are approximately 1 hour long. Outfit
               changes are not a problem!
             </p>
-            <li className="mt-2 ml-8">Package price: $450</li>
-            <li className="ml-8">Location of your choice</li>
+            <li className="mt-2 ml-8">Location of your choice</li>
             <li className="ml-8">no. of images, online gallery</li>
+            <h4 className="italic mt-2">Package Price: $400</h4>
           </div>
           <Image
             className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
@@ -185,8 +185,8 @@ export default function InvestmentPage() {
               after birth. Siblings are welcome! I would love to include your
               big and little ones.
             </p>
-            <li className="ml-8 mt-2">Package price: $400</li>
-            <li className="ml-8">60 images in your online gallery</li>
+            <li className="ml-8 mt-2">60 images in your online gallery</li>
+            <h4 className="italic mt-2">Package Price: $400</h4>
             <p className="mt-4">
               I also offer maternity sessions in home, studio, or outdoors.
               Reach out with your details, I would love to work with you!
