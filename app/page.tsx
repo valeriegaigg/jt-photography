@@ -92,7 +92,7 @@ export default function Home() {
         <span className="text-md italic">Explore my portfolio &rarr;</span>
       </Link> */}
 
-      <div className="md:grid grid-cols-3 md:max-w-screen-2xl mt-6 items-center">
+      <div className="md:grid grid-cols-3 md:max-w-screen-2xl mt-6 items-center mx-10">
         <div className="w-full sm:ml-25 md:ml-0 relative z-2">
           <Image
             className="mt-6"
