@@ -4,6 +4,7 @@
   --background: #F5F5F5;
   --foreground: #171717;
   --slate: rgb(165, 175, 184);
+  --footer: #0e1e30;
 }
 
 @theme inline {
