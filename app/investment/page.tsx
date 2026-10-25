@@ -144,15 +144,15 @@ export default function InvestmentPage() {
           <div className="w-auto ml-4 p-8 col-span-2 leading-8">
             <h2 className="text-3xl mb-4">Families</h2>
             <p>
-              I love to capture outdoor family sessions, whether it's a sunny
-              afternoon or an evening sunset. I travel to locations in the Fox
+              I love to capture outdoor family sessions, whether it's an early
+              morning or an evening sunset. I travel to locations in the Fox
               Valley and would love to recommend my favorite spots for your
               shoot. Family sessions are approximately 1 hour long. Outfit
               changes are not a problem!
             </p>
             <li className="mt-2 ml-8">Location of your choice</li>
             <li className="ml-8">no. of images, online gallery</li>
-            <h4 className="italic mt-2">Package Price: $400</h4>
+            <h4 className="italic mt-2">Package Price: $450</h4>
           </div>
           <Image
             className="mr-auto ml-auto pb-8 md:w-full hidden md:block"
@@ -186,7 +186,7 @@ export default function InvestmentPage() {
               big and little ones.
             </p>
             <li className="ml-8 mt-2">60 images in your online gallery</li>
-            <h4 className="italic mt-2">Package Price: $400</h4>
+            <h4 className="italic mt-2">Package Price: $450</h4>
             <p className="mt-4">
               I also offer maternity sessions in home, studio, or outdoors.
               Reach out with your details, I would love to work with you!
