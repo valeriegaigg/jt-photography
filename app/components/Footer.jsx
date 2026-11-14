@@ -24,7 +24,7 @@ function Footer() {
         
       </div>
       
-      <p className='text-xs md:text-right md:mr-8 pt-5'>&copy;Jennifer Tabbert Photography 2026</p>
+      <p className='text-xs md:text-right md:mr-8 pt-5'>&copy;Jennifer Tabbert Photography 2026 | Website by <Link className='underline' target="_blank" href="https://valeriegaigg.github.io/folio/">Valerie Yang</Link></p>
       
     </footer>
   );

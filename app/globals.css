@@ -78,6 +78,10 @@ a:hover{
   color: rgb(24, 83, 134);
 }
 
+footer a:hover{
+  color: rgb(158, 181, 217);
+}
+
 .portfolio:hover #drop {
   display: flex;
   animation-name: drop;

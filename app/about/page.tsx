@@ -49,7 +49,7 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="w-full mx-auto md:flex md:flex-col-2  md:gap-8 mb-8 items-center justify-center">
+      <div className="w-full mx-auto md:flex md:flex-col-2  md:gap-8 mb-12 items-center justify-center">
         <div className="bg-white mx-auto w-7/8 md:w-1/2 md:m-6">
           <Image
             className="w-full md:translate-x-6 md:translate-y-6"
